@@ -1,0 +1,21 @@
+.nav {
+  background-color: aqua;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navlink a:hover {
+  color: #fff;
+}
+.navlink a:active,
+.navlink a.active {
+  color: red;
+}
+/* 
+  li:active {
+    background-color: red;
+  } */
